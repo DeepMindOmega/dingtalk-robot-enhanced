@@ -1,0 +1,9 @@
+{
+  "CLIENT_ID": "your_dingtalk_app_key_here",
+  "CLIENT_SECRET": "your_dingtalk_app_secret_here",
+  "AUTHORIZED_USERS": [
+    "your_dingtalk_user_id_here",
+    "your_another_user_id_here"
+  ],
+  "QUEUE_DIR": "/path/to/your/queue/directory"
+}
