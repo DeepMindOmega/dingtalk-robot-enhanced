@@ -153,7 +153,7 @@ tail -f logs/processor.log
 
 2. **OpenCode 要求**
    - 确保已安装 OpenCode CLI
-   - 默认路径：`/home/admin/.npm-global/bin/opencode`
+   - 默认路径：`~/.npm-global/bin/opencode`
    - 如需修改，编辑 `src/processor.py` 中的 `OPENCODE_BIN`
 
 3. **系统要求**

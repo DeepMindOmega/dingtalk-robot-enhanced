@@ -79,7 +79,7 @@ ps aux | grep -E "gateway.py|processor.py" | grep -v grep
 当前配置：
 - CLIENT_ID: your_dingtalk_app_key_here
 - AUTHORIZED_USERS: 2 个用户
-- QUEUE_DIR: /home/admin/.opencode/skills/dingtalk-robot/queue
+- QUEUE_DIR: ~/.opencode/skills/dingtalk-robot/queue
 
 ## ❓ 故障排除
 

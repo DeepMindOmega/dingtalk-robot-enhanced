@@ -102,7 +102,7 @@ memory_client.py
 ## 文件结构
 
 ```
-/home/admin/.opencode/skills/dingtalk-robot/
+~/.opencode/skills/dingtalk-robot/
 ├── src/
 │   ├── processor.py          # 主处理器（已修改）
 │   ├── memory_client.py     # 记忆客户端（新）
@@ -112,7 +112,7 @@ memory_client.py
 
 ```
 
-/home/admin/intelligent-memory-system/
+~/intelligent-memory-system/
 ├── src/
 │   ├── api/
 │   │   ├── main.py        # API服务器
@@ -130,7 +130,7 @@ memory_client.py
 
 1. 确保记忆系统API服务器运行：
 ```bash
-cd /home/admin/intelligent-memory-system
+cd ~/intelligent-memory-system
 python3 -m uvicorn src.api.main:app --host 0.0.0.0 --port 8000
 ```
 

@@ -54,7 +54,7 @@ python3 src/processor.py  # 任务处理器
 
 ### 工作原理
 - OpenCode 执行任务时生成截图（如网页截图、操作截图等）
-- Processor 自动检测 `/home/admin/.local/share/opencode` 目录中新生成的图片文件
+- Processor 自动检测 `~/.local/share/opencode` 目录中新生成的图片文件
 - Gateway 自动上传并发送相关工作截图到钉钉
 - 日志标记: `[工作截图]`
 
